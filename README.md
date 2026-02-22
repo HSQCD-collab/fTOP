@@ -1,3 +1,5 @@
+![cover](./misc/cover.png)
+
 # FCC Technical Onboarding Program (FTOP)
 **Tehran FCC Group — CERN Associate Member Team**  
 **Program Period: Q2–Q3 2026**
