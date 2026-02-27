@@ -7,8 +7,8 @@ void gauss_hist() {
   TCanvas *c = new TCanvas("c","Gaussian Fit",800,600);
   h->Draw();
 
-  auto fit = h->Fit("gaus","S"); // get fit result object
-  fit->Print("V");               // prints fit details to terminal
+  auto fit = h->Fit("gaus","S");
+  fit->Print("V");               // prints fit result to terminal
 
   c->SaveAs("gauss_hist.png");
 }
